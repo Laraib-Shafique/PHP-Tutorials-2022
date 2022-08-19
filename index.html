@@ -5,14 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome To Travel Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DynaPuff&family=Rubik+Distressed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <img class="bg" src="bg.jpg " alt="lgu Trip">
-    <div class="container">
+    <div class="container ">
         <h1>Welcome To LGU Travel form</h1>
         <p> Enter your details and submit this form to
          confirm your participation in this trip</p>
+         <p class="submitmsg">Your response has been Submitted.Thank You for joining us on a trip</p>
 
         <form action="index.php" method="post">
             <input type="text" name="name" id="name" placeholder="Enter your name">
@@ -31,5 +35,6 @@
     
     </div>
     <script src="index.js"></script>
+    <!-- INSERT INTO `trip` (`sno.`, `name`, `age`, `gender`, `email`, `phone`, `other`, `date`) VALUES ('1', 'testname', '21', 'female', 'this@this.com', '11111111111', 'This is my first php myadmin test msg', current_timestamp()); -->
 </body>
 </html>
